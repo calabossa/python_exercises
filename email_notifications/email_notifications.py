@@ -14,8 +14,8 @@ import traceback
 
 
 ##
-sender = "myAutoPyEmail@gmail.com" 
-psw = "d#NWeb2@R"
+sender = "email@domain.com" 
+psw = "your pass"
 dst_email = "boaz@elminda.com"
 event_file = r"C:\Users\lab28\Dropbox\py\MyPy\exercises\notifications.txt"
 log_fle = r"C:\Users\lab28\Dropbox\py\MyPy\exercises\log_for_notifications.txt"
