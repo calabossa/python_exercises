@@ -1,0 +1,4 @@
+2018, 4, 10, 8, 30 = a notification message here
+2018, 4, 27, 9, 0 = a monthly event message here <monthly>
+2018, 4, 10, 12, 15 = a weekly event message here <weekly>
+2018, 4, 3, 12, 15 = a weekly event message here <weekly> <done>

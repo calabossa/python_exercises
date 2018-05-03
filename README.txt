@@ -16,4 +16,17 @@ Written on python 3.5, not tested in earlier versions.
 -Now you can run the code in the background. Open cmd and type: your_python_path\pythonw.exe notifications_code_path\email_notifications.py 
 
 
+How to build the event txt file:
+
+It's simple (see examples below). Write the event date and time in the format below. Do not place a zero in the tens place (e.g. eight o'clock should be written 8, and not 08. Similarly april is 4, not 04).
+The message to appear in the subject of the notification email should be written on the right hand side of the '=' sign. 
+Weekly events should be marked with <weekly> right after the message, and monthly events should be marked with <monthly>. 
+Events that are done (email was sent) will be automatically marked as <done> be the system. You don't have to remove them though you can.
+When a weekly or a monthly event is done, the system will generate a new event entry inside the txt file for the next iteration. 
+
+2018, 4, 10, 8, 30 = a notification message here
+2018, 4, 27, 9, 0 = a monthly event message here <monthly>
+2018, 4, 10, 12, 15 = a weekly event message here <weekly>
+
+
 -- boaz, 2018 
