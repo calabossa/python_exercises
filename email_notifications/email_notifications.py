@@ -14,12 +14,12 @@ import traceback
 
 
 ##
-sender = "myAutoPyEmail@gmail.com" 
-psw = "d#NWeb2@R"
-dst_email = "boaz@elminda.com"
-event_file = r"C:\Users\lab28\Dropbox\py\MyPy\exercises\notifications.txt"
-log_fle = r"C:\Users\lab28\Dropbox\py\MyPy\exercises\log_for_notifications.txt"
-iters_to_run = 60*24*7 # iterations 
+sender = "email@domain.com" 
+psw = "your pass"
+dst_email = "myWorkingEmail@domain.com"
+event_file = r"C:\Users\...\notifications.txt"
+log_fle = r"C:\Users\...\log_for_notifications.txt"
+iters_to_run = 60*24*7 # iterations. In this example 7 days of notifications 
 ##
 
 class SendEmail(object):
