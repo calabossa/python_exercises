@@ -14,9 +14,9 @@ import traceback
 
 
 ##
-sender = "email@domain.com" 
-psw = "your pass for sender email"
-dst_email = "myPersonalEmail@domain.com"
+sender = "email@domain.com" # From here notifications will be sebt
+psw = "your pass for sender email"  # OR, better yet, set it as a sys variable: os.environ.get('MY_PY_MAIL_PSWD')
+dst_email = "myPersonalEmail@domain.com" 
 event_file = r"C:\Users\...\notifications.txt"
 log_fle = r"C:\Users\...\log_for_notifications.txt"
 iters_to_run = 60*24*7 # iterations. In this example 7 days of notifications 
