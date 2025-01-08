@@ -1,8 +1,7 @@
 This is an email notification python app that runs locally. It runs on the background, taking relatively little resources from your computer. 
 It was built as an exercise only, not meant for distribution, and is not safe enough for that purpose. 
-To make it work, you need to create an email account from which notifications will be sent (again, it's a local app, no external services envolved). 
-This email address should preferably be created for this purpose only, as you provide its password in the code. Of course, your personal email (to which notifications are sent)
-is NOT compromized in any way, and you do not write its password anywhere. 
+To make it work, you need to create an email account from which notifications will be sent. 
+This email address should preferably be created for this purpose only.
 The goal behind this exercise was using smtplib, and building a scheduler without using any of the scheduler libraries available. 
 Written on python 3.5, not tested on earlier versions.
 
